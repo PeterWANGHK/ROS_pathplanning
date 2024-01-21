@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,IE=9,chrome=1"><meta name="generator" content="MATLAB 2023a"><title>Untitled</title><style type="text/css">.rtcContent { padding: 30px; } .CodeBlock { background-color: #F5F5F5; margin: 10px 0 10px 0; }
+.S0 { border-left: 1px solid rgb(217, 217, 217); border-right: 1px solid rgb(217, 217, 217); border-top: 1px solid rgb(217, 217, 217); border-bottom: 1px solid rgb(217, 217, 217); border-radius: 4px 4px 0px 0px; padding: 6px 45px 4px 13px; line-height: 18.004px; min-height: 0px; white-space: nowrap; color: rgb(33, 33, 33); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px;  }
+.S1 { color: rgb(33, 33, 33); padding: 10px 0px 6px 17px; background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box; font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px; overflow-x: hidden; line-height: 17.234px;  }
+/* Styling that is common to warnings and errors is in diagnosticOutput.css */.embeddedOutputsErrorElement {    min-height: 18px;    max-height: 550px;}
+.embeddedOutputsErrorElement .diagnosticMessage-errorType {    overflow: auto;}
+.embeddedOutputsErrorElement.inlineElement {}
+.embeddedOutputsErrorElement.rightPaneElement {}
+/* Styling that is common to warnings and errors is in diagnosticOutput.css */.embeddedOutputsWarningElement {    min-height: 18px;    max-height: 550px;}
+.embeddedOutputsWarningElement .diagnosticMessage-warningType {    overflow: auto;}
+.embeddedOutputsWarningElement.inlineElement {}
+.embeddedOutputsWarningElement.rightPaneElement {}
+/* Copyright 2015-2022 The MathWorks, Inc. *//* In this file, styles are not scoped to rtcContainer since they could be in the Dojo Tooltip */.diagnosticMessage-wrapper {    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;    font-size: 12px;}
+.diagnosticMessage-wrapper.diagnosticMessage-warningType {    color: var(--mw-color-matlabWarning);}
+.diagnosticMessage-wrapper.diagnosticMessage-warningType a {    color: var(--mw-color-matlabWarning);    text-decoration: underline;}
+.rtcThemeDefaultOverride .diagnosticMessage-wrapper.diagnosticMessage-warningType,.rtcThemeDefaultOverride .diagnosticMessage-wrapper.diagnosticMessage-warningType a {    color: var(--mw-color-matlabWarning) !important;}
+.diagnosticMessage-wrapper.diagnosticMessage-errorType {    color: var(--mw-color-matlabErrors);}
+.diagnosticMessage-wrapper.diagnosticMessage-errorType a {    color: var(--mw-color-matlabErrors);    text-decoration: underline;}
+.rtcThemeDefaultOverride .diagnosticMessage-wrapper.diagnosticMessage-errorType,.rtcThemeDefaultOverride .diagnosticMessage-wrapper.diagnosticMessage-errorType a {    color: var(--mw-color-matlabErrors) !important;}
+.diagnosticMessage-wrapper .diagnosticMessage-messagePart,.diagnosticMessage-wrapper .diagnosticMessage-causePart {    white-space: pre-wrap;}
+.diagnosticMessage-wrapper .diagnosticMessage-stackPart {    white-space: pre;}
+.embeddedOutputsTextElement,.embeddedOutputsVariableStringElement {    white-space: pre;    word-wrap:  initial;    min-height: 18px;    max-height: 550px;}
+.embeddedOutputsTextElement .textElement,.embeddedOutputsVariableStringElement .textElement {    overflow: auto;}
+.textElement,.rtcDataTipElement .textElement {    padding-top: 2px;}
+.embeddedOutputsTextElement.inlineElement,.embeddedOutputsVariableStringElement.inlineElement {}
+.inlineElement .textElement {}
+.embeddedOutputsTextElement.rightPaneElement,.embeddedOutputsVariableStringElement.rightPaneElement {    min-height: 16px;}
+.rightPaneElement .textElement {    padding-top: 2px;    padding-left: 9px;}
+.S2 { border-left: 1px solid rgb(217, 217, 217); border-right: 1px solid rgb(217, 217, 217); border-top: 1px solid rgb(217, 217, 217); border-bottom: 0px none rgb(33, 33, 33); border-radius: 0px; padding: 6px 45px 0px 13px; line-height: 18.004px; min-height: 0px; white-space: nowrap; color: rgb(33, 33, 33); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px;  }
+.S3 { border-left: 1px solid rgb(217, 217, 217); border-right: 1px solid rgb(217, 217, 217); border-top: 0px none rgb(33, 33, 33); border-bottom: 0px none rgb(33, 33, 33); border-radius: 0px; padding: 0px 45px 0px 13px; line-height: 18.004px; min-height: 0px; white-space: nowrap; color: rgb(33, 33, 33); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px;  }
+.S4 { border-left: 1px solid rgb(217, 217, 217); border-right: 1px solid rgb(217, 217, 217); border-top: 0px none rgb(33, 33, 33); border-bottom: 1px solid rgb(217, 217, 217); border-radius: 0px 0px 4px 4px; padding: 0px 45px 4px 13px; line-height: 18.004px; min-height: 0px; white-space: nowrap; color: rgb(33, 33, 33); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px;  }</style></head><body><div class = rtcContent><div class="CodeBlock"><div class="inlineWrapper outputs"><div  class = 'S0'><span style="white-space: pre"><span >ss = stateSpaceSE2;</span></span></div><div  class = 'S1'><div class="inlineElement eoOutputWrapper embeddedOutputsErrorElement" uid="2C630510" prevent-scroll="true" data-testid="output_0" style="width: 932px; white-space: normal; font-style: normal; color: rgb(33, 33, 33); font-size: 12px;"><div class="diagnosticMessage-wrapper diagnosticMessage-errorType eoOutputContent" data-previous-available-width="902" data-previous-scroll-height="17" data-hashorizontaloverflow="false" style="max-height: 261px; white-space: normal; font-style: normal; color: rgb(225, 27, 20); font-size: 12px;"><div class="diagnosticMessage-messagePart" style="white-space: pre-wrap; font-style: normal; color: rgb(225, 27, 20); font-size: 12px;">'stateSpaceSE2' requires Navigation Toolbox.</div><div class="diagnosticMessage-stackPart" style="white-space: pre; font-style: normal; color: rgb(225, 27, 20); font-size: 12px;"></div></div></div></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre"><span >sv = validatorOccupancyMap(ss);</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span >load </span><span style="color: rgb(167, 9, 245);">exampleMaps.mat</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span >map = occupancyMap(simpleMap,10);</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span >sv.Map = map;</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span >sv.ValidationDistance = 0.02;</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span >ss.StateBounds = [map.XWorldLimits; map.YWorldLimits; [-pi pi]];</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span >planner = plannerRRTStar(ss,sv, </span><span style="color: rgb(14, 0, 255);">...</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span >          ContinueAfterGoalReached=true, </span><span style="color: rgb(14, 0, 255);">...</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span >          MaxIterations=2500, </span><span style="color: rgb(14, 0, 255);">...</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span >          MaxConnectionDistance=0.2);</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span >start = [0 0 0];</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span >goal = [3.0 0.5 0];</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span >rng(100,</span><span style="color: rgb(167, 9, 245);">'twister'</span><span >) </span><span style="color: rgb(0, 128, 19);">% repeatable result</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span >[pthObj,solnInfo] = plan(planner,start,goal);</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span >map.show</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span >hold </span><span style="color: rgb(167, 9, 245);">on</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span style="color: rgb(0, 128, 19);">% Tree expansion</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span >plot(solnInfo.TreeData(:,1),solnInfo.TreeData(:,2),</span><span style="color: rgb(167, 9, 245);">'.-'</span><span >)</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre"><span style="color: rgb(0, 128, 19);">% Draw path</span></span></div></div><div class="inlineWrapper"><div  class = 'S4'><span style="white-space: pre"><span >plot(pthObj.States(:,1),pthObj.States(:,2),</span><span style="color: rgb(167, 9, 245);">'r-'</span><span >,</span><span style="color: rgb(167, 9, 245);">'LineWidth'</span><span >,2)</span></span></div></div></div>
+<br>
+<!-- 
+##### SOURCE BEGIN #####
+ss = stateSpaceSE2;
+sv = validatorOccupancyMap(ss);
+load exampleMaps.mat
+map = occupancyMap(simpleMap,10);
+sv.Map = map;
+sv.ValidationDistance = 0.02;
+ss.StateBounds = [map.XWorldLimits; map.YWorldLimits; [-pi pi]];
+planner = plannerRRTStar(ss,sv, ...
+          ContinueAfterGoalReached=true, ...
+          MaxIterations=2500, ...
+          MaxConnectionDistance=0.2);
+start = [0 0 0];
+goal = [3.0 0.5 0];
+rng(100,'twister') % repeatable result
+[pthObj,solnInfo] = plan(planner,start,goal);
+map.show
+hold on
+% Tree expansion
+plot(solnInfo.TreeData(:,1),solnInfo.TreeData(:,2),'.-')
+% Draw path
+plot(pthObj.States(:,1),pthObj.States(:,2),'r-','LineWidth',2)
+##### SOURCE END #####
+-->
+</div></body></html>
